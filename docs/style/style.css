@@ -37,3 +37,27 @@ h1 {
     color: rgb(46, 46, 46);
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* .container__header nav {
+    width: ;
+    display: inline-block;
+} */
+
+.container__header nav ul {
+    display: flex;
+}
+
+.container__header nav ul li {
+    list-style: none;
+}
+
+.container__header nav ul li .link {
+    color: var(--white1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container__header nav ul li .link__portfolio {
+    color: rgb(46, 46, 46);
+    margin: 0 15px;
+}
