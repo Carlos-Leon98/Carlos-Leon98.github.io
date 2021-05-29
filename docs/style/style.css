@@ -36,12 +36,12 @@ header{
 h1 {
     color: rgb(46, 46, 46);
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
 }
 
-/* .container__header nav {
-    width: ;
-    display: inline-block;
-} */
+.container__header nav {
+    margin-right: 10px;
+}
 
 .container__header nav ul {
     display: flex;
@@ -60,4 +60,14 @@ h1 {
 .container__header nav ul li .link__portfolio {
     color: rgb(46, 46, 46);
     margin: 0 15px;
+}
+
+.container__user {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container__user .user {
+    width: 250px;
 }
