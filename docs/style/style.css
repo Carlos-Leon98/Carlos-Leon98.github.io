@@ -94,3 +94,32 @@ h1 {
     font-weight: 700;
     text-decoration: underline;
 }
+
+.container__portfolio {
+    margin-top: 100px;
+}
+
+.container__portfolio .card {
+    width: 200px;
+    height: cover;
+    background-color: rgb(134, 134, 134);
+    border-radius: 5px;
+}
+
+.container__portfolio .card .container__image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container__portfolio .card .container__image .portfolio-image {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.container__portfolio .card .project-title {
+    padding: 0 5px;
+}
+
+.container__portfolio .card .project-description {
+    padding: 10px 5px;
+}
