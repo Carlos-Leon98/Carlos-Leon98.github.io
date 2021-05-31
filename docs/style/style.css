@@ -17,6 +17,11 @@ body{
     background-color: var(--white1);
 }
 
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
 header{
     width: 100%;
     min-height: 100vh;
@@ -24,9 +29,7 @@ header{
 }
 
 .container__header{
-    width: 65%;
     height: 65px;
-    margin: 0 auto;
     border-bottom: 1px solid var(--pureWhite);
     display: flex;
     justify-content: space-between;
@@ -63,11 +66,31 @@ h1 {
 }
 
 .container__user {
-    width: 65%;
-    margin: 0 auto;
+    height: calc(100vh - 65px);
     text-align: center;
+}
+
+.container__user figure {
+    margin: 100px 0 15px;
 }
 
 .container__user .user {
     width: 250px;
+}
+
+.container__user--text .user-name {
+    color: rgb(46, 46, 46);
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.container__user--text .user-description {
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+}
+
+.container__user--text span {
+    color: var(--white1);
+    font-weight: 700;
+    text-decoration: underline;
 }
